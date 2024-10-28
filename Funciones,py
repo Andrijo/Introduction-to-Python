@@ -1,0 +1,17 @@
+# --> Funciones
+def concatenar(argumento):
+    resultado = f"Momento {argumento}"
+    return resultado
+
+a = concatenar("Hello World!")
+print(a)
+print(concatenar("Momentinho"))
+print(concatenar(99))
+
+def suma(a, b):
+    try:
+        return a + b
+    except:
+        return "Error, tipos de datos incompatibles."
+
+print(suma(5, "jkdfd"))
