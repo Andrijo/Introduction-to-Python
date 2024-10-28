@@ -1,0 +1,54 @@
+# --> Comentario en Python
+print("Hello World!")
+
+# --> Error de sintaxis
+# print "Hello World!"
+
+# --> Tipos númericos
+a = 3
+b = 3.33
+c = complex(2, 5)
+
+print(f"{c} \t {type(c)}")
+
+# --> Tipos literales
+d = "Cadena"
+e = "Cadena 2"
+
+print(f"{d} \t {e}")
+
+# --> Colecciones
+lista = [1, 2, 3]
+flotantes = [1.1, 1.2, 1.3]
+mixta = [2, 2.2, complex(2, 2)]
+
+print(lista)
+print(flotantes)
+print(mixta)
+
+# --> Tuplas
+tupla = (1, 2, 2.5)
+
+print(type(tupla))
+
+# --> Set
+conjunto = {1, 2.5, 20, 6.12}
+
+print(conjunto)
+
+# --> Diccionarios
+diccionario = {"entero": 1, "float": 2.5}
+
+print(diccionario)
+
+# --> Booleanos
+a = True
+b = False
+
+print(a)
+print(b)
+
+# --> Nulos
+mo = None
+
+print(mo)
